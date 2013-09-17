@@ -56,9 +56,6 @@ PushNotification.prototype.setApplicationIconBadgeNumber = function(successCallb
 
 //-------------------------------------------------------------------
 
-if(!window.plugins) {
-    window.plugins = {};
-}
-if (!window.plugins.pushNotification) {
-    window.plugins.pushNotification = new PushNotification();
+if (!navigator.pushNotification) {
+    navigator.pushNotification = new PushNotification();
 }
