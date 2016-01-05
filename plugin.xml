@@ -73,18 +73,18 @@
 		<source-file src="src/android/com/plugin/gcm/PushHandlerActivity.java" target-dir="src/com/plugin/gcm/" />
 		<source-file src="src/android/com/plugin/gcm/PushPlugin.java" target-dir="src/com/plugin/gcm/" />
 		<source-file src="src/android/com/plugin/android-support-v13.jar" target-dir="libs/" />
-        <source-file src="src/android/me/leolin/shortcutbadger/ShortcutBadgeException.java" target-dir="src/me/leolin/shortcutbadger/" />
-        <source-file src="src/android/me/leolin/shortcutbadger/ShortcutBadger.java" target-dir="src/me/leolin/shortcutbadger/" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/AdwHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/AndroidHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/ApexHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/hTCHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/LGHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/NewHtcHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/NovaHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/SamsungHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/impl/SonyHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />
-        <source-file src="src/android/me/leolin/shortcutbadger/util/ImageUtil.java" target-dir="src/me/leolin/shortcutbadger/util" />
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/ShortcutBadgeException.java" target-dir="src/me/leolin/shortcutbadger/" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/ShortcutBadger.java" target-dir="src/me/leolin/shortcutbadger/" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/AdwHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/AndroidHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/ApexHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/hTCHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/LGHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/NewHtcHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/NovaHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/SamsungHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/impl/SonyHomeBadger.java" target-dir="src/me/leolin/shortcutbadger/impl" />-->
+        <!--<source-file src="src/android/me/leolin/shortcutbadger/util/ImageUtil.java" target-dir="src/me/leolin/shortcutbadger/util" />-->
 
 	</platform>
 
