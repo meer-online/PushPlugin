@@ -218,7 +218,9 @@
         NSLog(@"Msg: %@", jsonStr);
 
         NSString * jsCallBack = [NSString stringWithFormat:@"%@(%@);", self.callback, jsonStr];
-        [self.webView stringByEvaluatingJavaScriptFromString:jsCallBack];
+        if ([self.webView isKindOfClass:[UIWebView class]]) {
+            [(UIWebView*)self.webView stringByEvaluatingJavaScriptFromString:jsString];
+        }
 
         self.notificationMessage = nil;
     }
